@@ -1,22 +1,9 @@
-# yup-tail
+[![actions](https://github.com/yupsh/yup-tail/actions/workflows/actions.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/actions.yml)
+[![ci](https://github.com/yupsh/yup-tail/actions/workflows/ci.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/ci.yml)
+[![dockerfiles](https://github.com/yupsh/yup-tail/actions/workflows/dockerfiles.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/dockerfiles.yml)
+[![docs](https://github.com/yupsh/yup-tail/actions/workflows/docs.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/docs.yml)
+[![go](https://github.com/yupsh/yup-tail/actions/workflows/go.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/go.yml)
+[![release](https://github.com/yupsh/yup-tail/actions/workflows/release.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/release.yml)
+[![shell](https://github.com/yupsh/yup-tail/actions/workflows/shell.yml/badge.svg)](https://github.com/yupsh/yup-tail/actions/workflows/shell.yml)
 
-```
-NAME:
-   tail - output the last part of files
-
-USAGE:
-   tail [OPTIONS] [FILE...]
-
-   Print the last 10 lines of each FILE to standard output.
-   With more than one FILE, the files are concatenated (no "==> FILE <==" header).
-   With no FILE, or when FILE is -, read standard input.
-
-VERSION:
-   dev
-
-GLOBAL OPTIONS:
-   --lines string, -n string  output the last NUM lines; with +NUM, output from line NUM (default: 10)
-   --bytes int, -c int        output the last NUM bytes (default: 0)
-   --help, -h                 show help
-   --version                  print version information and exit
-```
+[docs](https://yupsh.github.io/docs.repl/)
