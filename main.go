@@ -56,8 +56,16 @@ func flags() []urf.Flag {
 			Name:    flagLines,
 			Aliases: []string{"n"},
 			Usage:   "output the last NUM lines; with +NUM, output from line NUM (default: 10)",
+			Sources: urf.EnvVars("YUP_TAIL_LINES"),
+			Value:   "",
 		},
-		&urf.IntFlag{Name: flagBytes, Aliases: []string{"c"}, Usage: "output the last NUM bytes"},
+		&urf.IntFlag{
+			Name:    flagBytes,
+			Aliases: []string{"c"},
+			Usage:   "output the last NUM bytes",
+			Sources: urf.EnvVars("YUP_TAIL_BYTES"),
+			Value:   0,
+		},
 	}
 }
 
